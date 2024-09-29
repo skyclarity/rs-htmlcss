@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", Helvetica, sans-serif;
+}
+
+html {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -.2px;
+  color: #61677b;
+  background: #efefef;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -.7px;
+  color: #080068;
+}
+
+.container {
+  margin: auto;
+  max-width: 768px;
+  padding: 52px 16px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin: 0 0 56px 0;
+}
+
+.avatar {
+  display: block;
+  margin: 0 40px 0 0;
+  width: 252px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 28px 52px 16px #74aaff38;
+}
+
+.name {
+  margin: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+  color: #080068;
+}
+
+.social {
+  margin: 0 0 28px 0;
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social li {
+  flex: 1;
+  border-right: 1px solid #cad6e4;
+  border-left: 1px solid #cad6e4;
+}
+
+.social li:first-child {
+  border-left: 2px solid #cad6e4;
+}
+
+.social li:last-child {
+  border-right: 2px solid #cad6e4;
+}
+
+.social a {
+  display: block;
+  padding: 4px 0;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: 
+    color .3s,
+    inherit;
+}
+
+.social a:hover {
+  color: #063ef8;
+}
+
+.about p {
+  margin: 0 0 12px 0;
+}
+
+.about p:last-child {
+  margin: 0;
+}
+
+.card {
+  margin: 0 0 16px 0;
+  padding: 40px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 16px 40px 12px #c6dcff12;
+}
+
+.card h2 {
+  margin: 0 0 28px 0;
+}
+
+.experience table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.experience tr {
+  border-top: 1px solid #cad6e4;
+}
+
+.experience td {
+  padding: 16px 0;
+}
+
+.experience tr:last-child td {
+  padding: 16px 0 0 0;
+}
+
+.experience tr td:first-child {
+  width: 300px;
+  color: #080068;
+}
+
+.experience tr td:last-child {
+  width: 152px;
+  text-align: right;
+}
+
+.card-row {
+  display: flex;
+  margin: 0 0 56px 0;
+}
+
+.card-row .card {
+  flex: 1;
+}
+
+.card-row .card:first-child {
+  margin: 0 16px 0 0;
+}
+
+.card-row .card:last-child {
+  margin: 0;
+}
+
+.hobby ul {
+  margin: 0 0 0 14px;
+}
+
+.hobby ul li {
+  margin: 0 0 4px 0;
+}
+
+.hobby ul li:last-child {
+  margin: 0;
+}
+
+.education ul {
+  list-style: none;
+}
+
+.education ul li {
+  margin: 0 0 12px 0;
+}
+
+.education ul li:last-child {
+  margin: 0;
+}
+
+.education ul h3 {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: -.4px;
+  color: #080068;
+}
+
+.contact {
+  max-width: 576px;
+  margin: auto;
+}
+
+.contact h2 {
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+
+.contact .input-row {
+  display: flex;
+  margin: 0 0 16px 0;
+}
+
+.contact .input-row .column {
+  flex: 1;
+}
+
+.contact .input-row .column:first-child {
+  margin: 0 16px 0 0;
+}
+
+.contact label {
+  display: block;
+  margin: 0 0 8px 0;
+}
+
+.contact input {
+  width: 100%;
+  height: 40px;
+  padding: 0 0 0 16px;
+}
+
+.contact textarea {
+  resize: none;
+  width: 100%;
+  height: 160px;
+  padding: 8px 16px;
+}
+
+.contact input,
+.contact textarea {
+  border: none;
+  border-radius: 8px;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  outline: #063ef8 solid 2px;
+}
+
+.btn {
+  width: 100%;
+  margin: 16px 0 0 0;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: #fff;
+  background: #063ef8;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.btn:hover {
+  background: #080068;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 40px 16px;
+  }
+
+  .info {
+    display: block;
+    margin: 0 0 40px 0;
+    padding: 0 24px;
+  }
+
+  .avatar {
+    width: 200px;
+    margin: 0 0 40px 0;
+    box-shadow: 0 20px 32px 12px #74aaff38;
+  }
+
+  .name {
+    margin: 0 0 12px 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -1.5px;
+    color: #080068;
+  }  
+
+  .about p {
+    max-width: 420px;
+  }
+
+  .card {
+    margin: 0 0 16px 0;
+    padding: 40px 24px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 16px 40px 12px #c6dcff12;
+  }
+
+  .experience tr td:first-child {
+    width: 260px;
+    padding: 0 4px 0 0;
+    color: #080068;
+  }
+  
+  .experience tr td:last-child {
+    width: 152px;
+    text-align: right;
+  }  
+
+  .card-row {
+    display: block;
+  }  
+
+  .card-row .card:first-child {
+    margin: 0 0 16px 0;
+  }
+
+  .contact .input-row {
+    display: block;
+  }  
+
+  .contact .input-row .column:first-child {
+    margin: 0 0 16px 0;
+  }
+}

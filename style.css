@@ -43,7 +43,7 @@ h2 {
   width: 252px;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 28px 52px 16px #74aaff38;
+  box-shadow: 0 28px 52px 16px #0015372e;
 }
 
 .name {
@@ -107,7 +107,7 @@ h2 {
   padding: 40px;
   border-radius: 16px;
   background: #fff;
-  box-shadow: 0 16px 40px 12px #c6dcff12;
+  box-shadow: 0 16px 40px 12px #0047ba03;
 }
 
 .card h2 {
@@ -282,7 +282,7 @@ h2 {
   .avatar {
     width: 200px;
     margin: 0 0 40px 0;
-    box-shadow: 0 20px 32px 12px #74aaff38;
+    box-shadow: 0 20px 32px 12px #0015372e;
   }
 
   .name {

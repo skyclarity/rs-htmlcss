@@ -240,6 +240,7 @@ h2 {
   font-size: inherit;
   line-height: inherit;
   letter-spacing: inherit;
+  color: inherit;
 }
 
 .contact input:focus,
